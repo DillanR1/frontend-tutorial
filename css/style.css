@@ -50,8 +50,20 @@ Padding: top/bottom, L/R => Padding: 0.5rem 0*/
 }
 /*============= CAROUSEL =============*/
 
-/*---Change Carousel Transition Speed --*/
+#carousel {
+  box-shadow: 0 1rem 1 rem rgba(0, 0, 0, 0.1);
+}
 
+.carousel-inner {
+  max-height: 38rem !important;
+}
+
+/*---Change Carousel Transition Speed --*/
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  transition: transform 1.7s ease;
+}
 /*-- Carousel Content --*/
 
 /*===== FIXED BACKGROUND IMG =====*/
