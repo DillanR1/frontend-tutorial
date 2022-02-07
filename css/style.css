@@ -132,7 +132,7 @@ Padding: top/bottom, L/R => Padding: 0.5rem 0*/
 .emoji {
   background-image: linear-gradient(to right, #4981b3, #ac2615);
   min-height: 0 !important;
-  padding: 0.6rem 0 !important;
+  padding: 0.4rem 0 !important;
 }
 
 .emoji .svg-inline--fa {
